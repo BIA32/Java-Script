@@ -17,8 +17,10 @@ let interestRate = 0.3;
 interestRate = 1;
 console.log(interestRate);
 
-let name = "Imran";
-let age = 15;
 let isApproved = false;
 let firstName = undefined;
 let selectedColor = null;
+let person {
+    name = "Imran";
+    age = 15;
+};
