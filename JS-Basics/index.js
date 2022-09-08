@@ -40,3 +40,15 @@ function bestProgrammer(name) {
     console.log(name + ' is the best programmer')
 };
 bestProgrammer('Imran')
+
+function square(number) {
+    return number = number;
+}
+
+console.log(square(2));
+
+function triangle(base, height) {
+    return((base*height)/2);
+}
+
+console.log(triangle);
