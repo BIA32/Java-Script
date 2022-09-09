@@ -52,3 +52,19 @@ function triangle(base, height) {
 }
 
 console.log(triangle(2));
+
+for (let i = 0; i < 5; i++) {
+    console.log("I am the best programmer in the world, and nobody can compare to me");
+}
+
+for(let i = 0; i <= 100; i++) {
+    console.log(i);
+}
+
+function power(base, power) {
+    return(base**power);
+}
+
+for(let i = 0; i < 5; i++) {
+    console.log(power);
+}
