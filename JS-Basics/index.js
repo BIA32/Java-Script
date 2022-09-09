@@ -61,10 +61,12 @@ for(let i = 0; i <= 100; i++) {
     console.log(i);
 }
 
-function power(base, power) {
-    return(base**power);
+function power(base, exponent) {
+    let result = 1
+    for(let i = 0; i < exponent; i++){
+        result=result*base
+    }
+    return result
 }
 
-for(let i = 0; i < 5; i++) {
-    console.log(power);
-}
+console.log(power(2, 4));
