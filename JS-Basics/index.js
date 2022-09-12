@@ -70,3 +70,15 @@ function power(base, exponent) {
 }
 
 console.log(power(2, 4));
+
+function addNumbers(num1, num2) {
+    let  total = 0
+    for (let i=num1; i <=num2; i++) {
+        total += i
+    }
+    return(total)
+}
+
+console.log(addNumbers(4, 8));
+
+console.log(addNumbers(5, 6));
