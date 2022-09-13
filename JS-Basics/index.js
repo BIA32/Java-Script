@@ -82,3 +82,21 @@ function addNumbers(num1, num2) {
 console.log(addNumbers(4, 8));
 
 console.log(addNumbers(5, 6));
+
+let counter=1;
+while (counter<101) {
+    console.log(counter)
+    counter++
+}
+
+for (let i=1; i<101 ; i++) {
+    console.log(i)
+}
+
+let password = 'GholeMama*&@^#*&(!@#&*&*!@&#!(&@#!(@&#!(@#&!(&@#!(@#&!@(&#&(!(&#&!@(#(&!(@&#&&!@$^!@^&#!&@^#!&@^#!@&^#^!&^#&!@^#^&wenomechainasumatomyharbeasoundwefelinluf';
+let passwordEntry = prompt('Enter your password');
+while (passwordEntry =! password) {
+    let passwordEntry = prompt('Enter your password');
+}
+let username = prompt('Imran Aziz');
+alert('Welcome ' + username + 'To Your Website');
