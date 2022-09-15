@@ -93,10 +93,23 @@ for (let i=1; i<101 ; i++) {
     console.log(i)
 }
 
-let password = 'GholeMama*&@^#*&(!@#&*&*!@&#!(&@#!(@&#!(@#&!(&@#!(@#&!@(&#&(!(&#&!@(#(&!(@&#&&!@$^!@^&#!&@^#!&@^#!@&^#^!&^#&!@^#^&wenomechainasumatomyharbeasoundwefelinluf';
+let password = 'Imran';
 let passwordEntry = prompt('Enter your password');
-while (passwordEntry =! password) {
-    let passwordEntry = prompt('Enter your password');
+while (passwordEntry !== password) {
+    passwordEntry = prompt('Enter your password');
 }
-let username = prompt('Imran Aziz');
-alert('Welcome ' + username + 'To Your Website');
+let username = prompt('Enter your name?');
+alert('Welcome ' + username + ' To Your Website');
+
+let hour = 10;
+
+if (hour >= 6 && hour < 12) {
+    console.log('Good Morning!')
+}
+else if (hour >= 12 && hour < 17) {
+    console.log('Good Afternoon!') 
+}
+else if (hour >= 17 && hour < 20) 
+    console.log('Good Evening!')
+else
+    console.log('Good Night!')
