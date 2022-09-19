@@ -113,3 +113,20 @@ else if (hour >= 17 && hour < 20)
     console.log('Good Evening!')
 else
     console.log('Good Night!')
+
+let userAge = prompt('What is your age?');
+if (userAge <= 5) {
+    alert('too young')
+} else if (userAge <= 10) {
+    alert('Tu eres growing up')
+} else if (userAge <= 18) {
+    alert('you are an teenager')
+} else if (userAge <= 50) {
+    alert('you are a grown adult') 
+} else if (userAge <= 60) {
+    alert('You are becoming elderly bruv')
+} else if (userAge <= 80) {
+    alert('Tu eres too old')
+} else {
+    alert('way too old')
+}
