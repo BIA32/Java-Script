@@ -120,7 +120,7 @@ if (userAge <= 5) {
 } else if (userAge <= 10) {
     alert('Tu eres growing up')
 } else if (userAge <= 18) {
-    alert('you are an teenager')
+    alert('you are un teenager')
 } else if (userAge <= 50) {
     alert('you are a grown adult') 
 } else if (userAge <= 60) {
