@@ -15,3 +15,15 @@ if (userAttempts == 1) {
 } else {
     alert('cool');
 }
+
+let attempts = 5; 
+if (userGuess < actualNumber) {
+    attempts = attempts-1;
+} else if (userGuess > actualNumber) {
+    attempts = attempts-1;
+}
+
+if (attempts < 1) {
+    alert('Game Over');
+    document.location.reload();
+}
