@@ -1,18 +1,24 @@
 const actualNumber = Math.floor(Math.random() * 100);
-let userGuess = prompt("Can you guess the number?");
 let userAttempts = 1;
-let attempts = 0;
+let userGuess = prompt("Can you guess the number?");
 while (userGuess != actualNumber) {
+    alert ("Guess number: " + userAttempts);
     if (userGuess < actualNumber) {
         userGuess = prompt('More');
-        userAttempts ++;
+        userAttempts += 1;
     } else if (userGuess > actualNumber) {
         userGuess = prompt('Less')
-        userAttempts ++;
+        userAttempts += 1;
+    } else if (userAttempts==actualNumber) {
+        alert ("you won")
+    } else {
+        alert ("you lost")
+    }
+
+
+    userAttempts ++;
+    if (userAttempts > 5) {
+        alert ("you lost")
     }
 }
-if (userAttempts == 1) {
-    alert('nice');
-} else {
-    alert('cool');
-}
+
