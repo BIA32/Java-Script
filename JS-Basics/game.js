@@ -22,3 +22,11 @@ while (userGuess != actualNumber) {
     }
 }
 
+function calcAge(age) {
+	let ageInDays = (age*365)>=0 && typeof(age*365) == 'number' ? (age*365) : []
+	return ageInDays
+}
+
+function squared(a) {
+	return a * a
+}
